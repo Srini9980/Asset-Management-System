@@ -20,6 +20,7 @@ import FetchShipment2 from './component/shipment/FetchShipment2';
 import FetchShipment3 from './component/shipment/FetchShipment3';
 import HomePage from './component/home/HomePage';
 import Footer from './component/footer/Footer'
+import About from './component/about/About';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path="/admin/dashboard" element={<AdminDashboard />} />
           <Route path="/manager/dashboard" element={<ManagerDasboard/>} />
           <Route path="/user/dashboard" element={<UserDashboard/>} />
+          <Route path="/about" element={<About/>} />
           <Route path="/footer" element={<Footer/>} />
         </Routes>
       </Router>

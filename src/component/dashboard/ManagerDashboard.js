@@ -79,12 +79,15 @@ function ManagerDasboard() {
                             use of available space, or coordinating tasks for maximum efficiency.
                         </p>
                     </div>
+                   
                 </div>
+                
 
                 : <h2> Please Login</h2>
             }
-            <Footer />
+             <Footer />
         </div>
+        
     )
 
 }

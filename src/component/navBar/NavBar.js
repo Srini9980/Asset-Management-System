@@ -23,7 +23,7 @@ function NavBar() {
 
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                    <Nav.Link href="">About us</Nav.Link>
+                    <Nav.Link href="/about">About us</Nav.Link>
                     <NavDropdown title="Assets" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="#">Add Asset</NavDropdown.Item>
                         <NavDropdown.Item href="#">View Assets</NavDropdown.Item>

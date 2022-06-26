@@ -100,7 +100,7 @@ function CreateShipment() {
                     <div style={{ fontSize: "20px" }}>
                         <div className='form-group'>
                             <label htmlFor='shipAssets'>Shipment Asset </label>
-                            <input type="text" className="form-control" name="shipAssets" value={shipAssets} onChange={ship => setShipAssets(ship.target.value)} autoFocus />
+                            <input type="text" className="form-control" name="shipAssets" value={shipAssets} onChange={ship => setShipAssets(ship.target.value)} placeholder="Shipment Assets" autoFocus />
                             {
                                 formErrors.shipAssetNameError &&
                                 <div style={{ textAlign: "start", color: "red", fontSize: "17px" }}>{formErrors.shipAssetNameError}</div>
@@ -108,7 +108,7 @@ function CreateShipment() {
                         </div>
                         <div className='form-group'>
                             <label htmlFor='shipStaus'>Shipment Status </label>
-                            <input type="text" className="form-control" name="shipStatus" value={shipStatus} onChange={ship => setShipStatus(ship.target.value)} />
+                            <input type="text" className="form-control" name="shipStatus" value={shipStatus} onChange={ship => setShipStatus(ship.target.value)} placeholder="Shipment Status"/>
                             {
                                 formErrors.shipStatusNameError &&
                                 <div style={{ textAlign: "start", color: "red", fontSize: "17px" }}>{formErrors.shipStatusNameError}</div>
@@ -117,7 +117,7 @@ function CreateShipment() {
                         </div>
                         <div className='form-group'>
                             <label htmlFor='subLocation'>Shipment Sub-location </label>
-                            <input type="text" className="form-control" name="subLocation" value={subLocation} onChange={ship => setSubLocation(ship.target.value)} />
+                            <input type="text" className="form-control" name="subLocation" value={subLocation} onChange={ship => setSubLocation(ship.target.value)} placeholder="Shipment Sub-Location"/>
                         </div>
                         <div className='form-group'>
                             <label htmlFor='dateOfShipment'>Shipment Date </label>
@@ -129,7 +129,7 @@ function CreateShipment() {
                         </div>
                         <div className='form-group'>
                             <label htmlFor='location'>Location </label>
-                            <input type="text" className="form-control" name="location" value={location} onChange={ship => setLocation(ship.target.value)} />
+                            <input type="text" className="form-control" name="location" value={location} onChange={ship => setLocation(ship.target.value)} placeholder="Shipment Location"/>
                             {
                                 formErrors.shipLocationNameError &&
                                 <div style={{ textAlign: "start", color: "red", fontSize: "17px" }}>{formErrors.shipLocationNameError}</div>
@@ -138,7 +138,7 @@ function CreateShipment() {
                         </div>
                         <div className='form-group'>
                             <label htmlFor='state'>State </label>
-                            <input type="text" className="form-control" name="state" value={state} onChange={ship => setState(ship.target.value)} />
+                            <input type="text" className="form-control" name="state" value={state} onChange={ship => setState(ship.target.value)} placeholder="Shipment State"/>
                             {
                                 formErrors.shipStateNameError &&
                                 <div style={{ textAlign: "start", color: "red", fontSize: "17px" }}>{formErrors.shipStateNameError}</div>
@@ -146,7 +146,7 @@ function CreateShipment() {
                         </div>
                         <div className='form-group'>
                             <label htmlFor='country'>Country </label>
-                            <input type="text" className="form-control" name="country" value={country} onChange={ship => setCountry(ship.target.value)} />
+                            <input type="text" className="form-control" name="country" value={country} onChange={ship => setCountry(ship.target.value)} placeholder="Shipment Country"/>
                             {
                                 formErrors.shipCountryNameError &&
                                 <div style={{ textAlign: "start", color: "red", fontSize: "17px" }}>{formErrors.shipCountryNameError}</div>
@@ -154,7 +154,7 @@ function CreateShipment() {
                         </div>
                         <div className='form-group'>
                             <label htmlFor='fromWarehouseId'>From warehouseId </label>
-                            <input type="text" className="form-control" name="fromWarehouseId" value={fromWarehouseId} onChange={ship => setFromWarehouseId(ship.target.value)} />
+                            <input type="text" className="form-control" name="fromWarehouseId" value={fromWarehouseId} onChange={ship => setFromWarehouseId(ship.target.value)} placeholder="From WarehouseId"/>
                             {
                                 formErrors.shipFromWarehouseIdNameError &&
                                 <div style={{ textAlign: "start", color: "red", fontSize: "17px" }}>{formErrors.shipFromWarehouseIdNameError}</div>
@@ -162,7 +162,7 @@ function CreateShipment() {
                         </div>
                         <div className='form-group'>
                             <label htmlFor='toWarehouseId'>To warehouse Id</label>
-                            <input type="text" className="form-control" name="toWarehouseId" value={toWarehouseId} onChange={ship => setToWarehouseId(ship.target.value)} />
+                            <input type="text" className="form-control" name="toWarehouseId" value={toWarehouseId} onChange={ship => setToWarehouseId(ship.target.value)} placeholder="To WarehouseId"/>
                             {
                                 formErrors.shipToWarehouseIdNameError &&
                                 <div style={{ textAlign: "start", color: "red", fontSize: "17px" }}>{formErrors.shipToWarehouseIdNameError}</div>

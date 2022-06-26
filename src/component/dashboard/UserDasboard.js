@@ -68,8 +68,8 @@ function UserDashboard() {
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <Footer/>
+                    </div>  
+                    <Footer/> 
                 </div>
                 : <h2> Please Login</h2>
             }

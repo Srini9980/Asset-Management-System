@@ -55,7 +55,7 @@ function EditShipment() {
     return (
             <div style={{ backgroundImage: `url(${e1})`, width: "100%", height: "1109px" }}>
                 <NavBar2 />
-                <h2 style={{fontSize:"40px"}}><i><b>Adding Shipment</b></i></h2><br></br>
+                <h2 style={{fontSize:"40px"}}><i><b>Editing Shipment</b></i></h2><br></br>
                 <div className="container" style={{fontSize:"18px"}}>
                 <div className='form-group'>
                     <label htmlFor='shipId'>ShipmentId </label>

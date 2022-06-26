@@ -35,7 +35,7 @@ function FetchAllShipment3() {
                                         {/* eslint-disable-next-line */}
                                         <img className="card-image-top" src={i1} alt="Card image"/>
                                         <h4>{shipment.shipAssets}</h4>
-                                        <p>{shipment.shipStatus}</p>
+                                        <p>Status: {shipment.shipStatus}</p>
                                     </div><br></br><br></br>
                                 </Link>
                             </div>
